@@ -50,10 +50,12 @@ Command-Line To-Do App/
 1️⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
+```
 
 2️⃣ **Navigate to the project directory**  
 ```bash
 cd Command-Line-To-Do-App
+```
 
 1️⃣ **Clone the repository**  
 ```bash
