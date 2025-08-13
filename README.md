@@ -22,6 +22,7 @@ This tool helps you manage your tasks efficiently right from your terminal, with
 ---
 
 ## 📂 File Structure
+```
 Command-Line To-Do App/
 ├── Commands/
 │   ├── AddCommand.cs
@@ -37,7 +38,7 @@ Command-Line To-Do App/
 │   └── TaskStorage.cs
 ├── Program.cs
 └── tasks.json
-
+```
 ---
 
 ## 🚀 How to Run Your Program
@@ -57,18 +58,34 @@ git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
 cd Command-Line-To-Do-App
 ```
 
-1️⃣ **Clone the repository**  
+3️⃣ **Build the project (compiles and prepares for execution)**   
 ```bash
-git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
+dotnet build
+```
+
+4️⃣ **Add your first task (high priority, with a "home" tag)**   
+```bash
+dotnet run -- add "Finish project report" --priority high --tag home
+```
+
+5️⃣ **Add another task for work**   
+```bash
+dotnet run -- add "Buy milk" --priority medium --tag work
+```
 
 1️⃣ **Clone the repository**  
 ```bash
 git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
+```
 
-1️⃣ **Clone the repository**  
-```bash
-git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
 
-1️⃣ **Clone the repository**  
-```bash
-git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
+
+
+
+
+## 🛠️ Project Details
+Language: C#
+
+Framework: .NET
+
+Data Storage: JSON
