@@ -96,5 +96,7 @@ dotnet run -- delete 2
 
 ## 🛠️ Project Details
 Language: C#
+
 Framework: .NET
+
 Data Storage: JSON
