@@ -1,4 +1,4 @@
-# 📝 Command-Line To-Do App
+# 📝OPTION-2 Command-Line To-Do App
 
 A simple yet powerful **command-line interface (CLI)** to-do application built with **.NET** and **C#**.  
 This tool helps you manage your tasks efficiently right from your terminal, with features like **priorities**, **tags**, and **persistent storage**.
@@ -63,29 +63,38 @@ cd Command-Line-To-Do-App
 dotnet build
 ```
 
-4️⃣ **Add your first task (high priority, with a "home" tag)**   
+4️⃣ **Add your first task (high priority, with a "home" tag)**
 ```bash
 dotnet run -- add "Finish project report" --priority high --tag home
 ```
 
-5️⃣ **Add another task for work**   
+5️⃣ **Add another task for work**
 ```bash
 dotnet run -- add "Buy milk" --priority medium --tag work
 ```
 
-1️⃣ **Clone the repository**  
+6️⃣ **List all tasks (shows index, status, priority, and tags)**
 ```bash
-git clone https://github.com/YourUsername/Command-Line-To-Do-App.git
+dotnet run -- list
 ```
 
+7️⃣ **Filter tasks by priority (only high priority)**
+```bash
+dotnet run -- list --priority high
+```
 
+8️⃣ **Mark the first task as done**    
+```bash
+dotnet run -- done 1
+```
 
-
+9️⃣ **Delete the second task**    
+```bash
+dotnet run -- delete 2
+```
 
 
 ## 🛠️ Project Details
 Language: C#
-
 Framework: .NET
-
 Data Storage: JSON
